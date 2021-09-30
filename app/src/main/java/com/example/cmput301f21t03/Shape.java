@@ -12,7 +12,7 @@ package com.example.cmput301f21t03;
 public class Shape {
     private Integer x;
     private Integer y;
-
+    private String color = "Gold";
     public Integer getX() {
         return x;
     }
