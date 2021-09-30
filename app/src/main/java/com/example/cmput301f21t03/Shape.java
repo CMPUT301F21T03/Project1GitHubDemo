@@ -14,8 +14,6 @@ public class Shape {
     private Integer y;
     private String color = "purple";
 
-    private Integer mathews_change = -1;
-    
     public Integer getX() {
         return x;
     }
