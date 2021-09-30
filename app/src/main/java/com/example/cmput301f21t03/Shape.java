@@ -14,16 +14,8 @@ public class Shape {
     private Integer y;
     private String color = "purple";
 
-    private String colour = "blue";
-
-    public String getColour() {
-        return colour;
-    }
-
-    public void setColour(String colour) {
-        this.colour = colour;
-    }
-
+    private Integer mathews_change = -1;
+    
     public Integer getX() {
         return x;
     }
