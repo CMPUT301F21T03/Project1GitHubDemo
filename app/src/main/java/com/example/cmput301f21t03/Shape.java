@@ -13,6 +13,16 @@ public class Shape {
     private Integer x;
     private Integer y;
 
+    private String colour = "blue";
+
+    public String getColour() {
+        return colour;
+    }
+
+    public void setColour(String colour) {
+        this.colour = colour;
+    }
+
     public Integer getX() {
         return x;
     }
